@@ -1,27 +1,27 @@
 .reg-form-container {
-    width: 328px; /* фиксированная ширина формы */
-    height: 781px; /* фиксированная высота формы */
+    width: 328px; 
+    height: 781px; 
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Выравниваем по верхнему краю, чтобы форма была не на центре, а с отступом сверху */
+    align-items: flex-start; 
     margin: 0 auto;
     overflow: hidden;
 
     .register-form {
-      margin-top: 20px; /* Отступ сверху, чтобы форма не прилипала к верхнему краю */
-      width: 100%; /* Контейнер формы занимает всю доступную ширину */
+      margin-top: 20px; 
+      width: 100%; 
       position: relative;
 
       .input-form {
-        width: 100%; /* Убедимся, что форма заполняет ширину */
-        height: auto; /* Высота будет адаптироваться под содержимое */
-        margin-top: 30px; /* Уменьшаем отступ сверху */
+        width: 100%; 
+        height: auto; 
+        margin-top: 30px; 
       }
       
       .input-place {
         width:94%;
         height: 54px;
-        margin-top: 20px; /* Уменьшаем отступ между полями */
+        margin-top: 20px;
         border-radius: 5px;
         border: 1px solid #D0CFCF;
         color: #7E7E7E;
