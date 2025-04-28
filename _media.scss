@@ -4,25 +4,19 @@
           .logo {
             margin-left: 32px; 
           }
-    
           .register-btn {
-            margin-right: 32px;
-            
+            margin-right: 32px; 
          }   
        }
-       
     }
-
     .banner-container{
         width: 100%;
-
         .banner-items{
           position: absolute;
           top: 35%;
           left: 28%;
       }
   }
-
   .Teamwork-container {
      min-height: 968px;
      min-width: 704px; 
@@ -33,7 +27,6 @@
       flex-direction: column;
       align-items: center;
 
-
       .Team-members{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -43,24 +36,17 @@
     .btn{
         margin-top: 20px;
     }
-   
   }
-
   .reg-form-container {
     width: 704px; 
     height: 741px;
     margin: 0 auto; 
-
+      
     .register-form {
       width: 380px; 
-     
     }
   }
-  
-  
-
   }
-
 
   @media screen and (min-width: 1024px) {
         
@@ -68,14 +54,11 @@
           .logo {
             margin: 10px auto;
             width: 50%;
-     
           }
-    
             .btn {
               margin-right: 5px;
             }
          }
-          
       .banner-container{
         width: 100%; 
         .banner-items{
@@ -83,9 +66,7 @@
           top: 35%;
           left: 34%;
       }
-         
   }
-
   .Teamwork-container {
     min-width: 904px; 
     min-height: 711px;
@@ -97,7 +78,6 @@
      flex-direction: column;
      align-items: center;
 
-
      .Team-members{
        display: grid;
        grid-template-columns: repeat(3, 1fr);
@@ -108,32 +88,27 @@
        margin-top: 20px;
    }
   }
-
   .reg-form-container {
     min-width: 904px; 
     min-height: 711px;
     margin: 0 auto; 
-
+      
     .register-form {
       width: 380px; 
      
     }
   }
 }
- 
-
   @media screen and (min-width: 1170px) {
    
       .header-items {
         max-width: 1170px;
-        margin: 0 auto;
-        
+        margin: 0 auto; 
        }
-  
      .banner-container{
       max-width: 1170px;
       margin: 0 auto;
-
+         
       .banner-items {
         position: absolute;
         top: 34%;
