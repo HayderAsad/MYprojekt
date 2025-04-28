@@ -1,0 +1,53 @@
+
+.Teamwork-container{
+    max-width: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+
+    h2{
+        margin-top: 140px;
+    }
+    p{
+          padding: 20px;
+          margin: 0;
+    }
+
+    .Teamwork {
+        width: 328px;
+        max-width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .Team-members {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+      }
+      
+      .members {
+        padding: 20px;
+      }
+      
+      .members img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+      
+     
+      
+
+    .btn{
+        margin-top: 50px;
+        width: 120px;
+    }
+    
+       }
+
+       
+       

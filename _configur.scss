@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+    $Primary:#AA43C3;
+    $Secondary:#1AC3E8;
+    $Background:#F8F8F8;
+    $disable:#B4B4B4;
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; 
+    background-color: #F8F8F8;
+  
+}
+
+
+
+h1{
+    font-family: nunito;
+    font-style: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    color: #ffff;
+    background-color: #AA43C3;
+    
+    &:hover{
+        background-color: #1AC3E8;
+    }
+    &:active{
+        background-color: gray;
+    }
+
+}
+
+
+

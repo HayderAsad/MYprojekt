@@ -1,0 +1,68 @@
+
+.header-container{
+   
+    height: 60px;
+  
+    .header-items{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            width: 116px;
+            height: 26px;
+            margin: 17px 13px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+           
+           .logo-icon{
+            width:21px;
+            height: 16px;
+
+            .item{
+                width: 17px;
+                height: 12px;
+                border: 1px solid black;
+                
+            }
+            .blue{
+                background-color:#1AC3E8;
+                position: absolute;
+                top: 44%;
+                left: 7%;
+            }
+            .violet{
+                background-color:#AA43C3;
+                position: absolute;
+                bottom: 28%;
+                left: 2%;
+            }
+           
+           }
+           .logo-titel{
+            width: 96px;
+            height: 19px;
+            position: absolute;
+            top: 20%;
+            left: 25%;
+           }
+        }
+        .register-btn{
+            width: 210px;
+            height: 34px;
+            margin: 13px 13px 13px auto; 
+            display: flex;
+            justify-content: space-between;
+           
+           .Users{
+            margin-right: 10px;
+           }
+           .Sign-Up{
+            margin-right: 12px;
+           }
+            
+        }
+    }
+}

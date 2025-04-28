@@ -1,0 +1,33 @@
+
+.banner-container{
+    height: 500px;
+    background-image: url(../partion/img/imgBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+
+    .banner-items{
+        width: 328px;
+        height: 106px;
+        justify-content: center;
+        position: absolute;
+        top: 35%;
+        left: 4%;
+       
+
+       
+        .banner-titel{
+            width: 328px;
+            height: 40px;
+            color: white;
+        }
+        .banner-reg-btn{
+            margin-top: 32px;
+        }
+        
+        
+    
+    }
+}
